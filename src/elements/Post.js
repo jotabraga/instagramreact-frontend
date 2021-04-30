@@ -6,10 +6,10 @@ export default function Post(props){
     return (        
         <div class="post">
 
-            <Top />
-            <Content />
-            <Back />
-            
+            <Top image={props.tImg} text={props.tTxt}/>
+            <Content image={props.cImg}/>
+            <Back image={props.bImg} likes={props.bLike} others={props.bOthers}/>
+
         </div>
     );
 }
