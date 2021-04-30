@@ -4,7 +4,7 @@ export default function MobileBackground(){
     
     return (
         <div class="fundo-mobile">
-            {itens.map(item => <ion-icon name="item"></ion-icon>)}
+            {itens.map(item => <ion-icon name={item}></ion-icon>)}
         </div>
     );
 }
