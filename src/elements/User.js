@@ -1,12 +1,10 @@
-
-
 export default function User(props){
     return(
         <div class="usuario">
-            <img src="assets/img/catanacomics.svg" />
+            <img src="{props.image}" />
             <div class="texto">
-            <strong>catanacomics</strong>
-            Catana
+            <strong>{props.title}</strong>
+            {props.subtitle}
             </div>
         </div>
     );
