@@ -1,4 +1,5 @@
 import Sugestion from "./Sugestion";
+import User from "./User";
 
 export default function Sidebar(){
 
@@ -9,19 +10,16 @@ export default function Sidebar(){
         {image: "assets/img/adorable_animals.svg",name: "adorable_animals"},
         {image: "assets/img/smallcutecats.svg",name: "smallcutecats"}
     ]
+
+    const userData = {image: "assets/img/catanacomics.svg" ,title: "catanacomics",subtitle: "Catana"};
     
     return (
-
         
 
         <div class="sidebar">
-            <div class="usuario">
-                <img src="assets/img/catanacomics.svg" />
-                <div class="texto">
-                <strong>catanacomics</strong>
-                Catana
-                </div>
-            </div>
+
+
+            <User image={userData.image} title={userData.title} subtitle={userData.subtitle} />
             
             <div class="sugestoes">
                 <div class="titulo">
