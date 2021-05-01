@@ -1,6 +1,6 @@
 import Top from "./Top";
 import Content from "./Content";
-import Back from "./Body";
+import Back from "./Back";
 
 export default function Post(props){
     return (        

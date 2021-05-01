@@ -7,8 +7,8 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <Body />
-      <MobileBackground />      
+      <Body /> 
+      <MobileBackground />       
     </div>
   );
 }
