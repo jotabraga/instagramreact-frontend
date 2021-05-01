@@ -14,7 +14,7 @@ export default function Back(props){
             </div>
 
             <div class="curtidas">
-            <img src={props.image} />
+            <img src={props.image} alt=""/>
             <div class="texto">
                 Curtido por <strong>{props.likes}</strong> e <strong>{props.others}</strong>
             </div>

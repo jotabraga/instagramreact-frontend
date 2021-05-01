@@ -8,5 +8,6 @@ export default function Body(){
         <div class="corpo">
             <Left />
             <Sidebar />            
-        </div>);
+        </div>
+    );
 }

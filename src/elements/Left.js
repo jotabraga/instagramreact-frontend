@@ -6,10 +6,8 @@ export default function Left(){
         <div class="esquerda">
             
             <Stories />
-            <Posts />
-            
-
-            
-            </div>
-    )
+            <Posts />   
+          
+        </div>
+    );
 }
